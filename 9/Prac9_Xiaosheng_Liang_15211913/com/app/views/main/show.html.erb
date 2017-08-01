@@ -1,0 +1,7 @@
+<h1> <p align="center"> Your Information Details </p></h1>
+
+<p align="center"><%= image_tag("information.jpg") %> </p>
+
+<p align="center"> <b> You are the </b> <%=h @id %> user. Thanks! </p>
+
+<p align="center"><%= link_to 'Next Page', :controller=>"main", :action=>"goodbye" %>
